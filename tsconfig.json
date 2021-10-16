@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "target": "ES2021",
+    "strict": true,
+    "sourceMap": true,
+    "types": ["svelte"]
+  },
+  "include": [
+    "src/server/**/*",
+    "generated-client-components/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
